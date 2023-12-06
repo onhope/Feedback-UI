@@ -8,7 +8,7 @@ ratingsEl.forEach((ratingEl) => {
   ratingEl.addEventListener("click", (event) => {
     removeAcitive();
     selectedRating = event.target.innerText || event.target.parentNode.innerText;
-    console.log(event.target.innerText || event.target.parentNode.innerText);
+    // console.log(event.target.innerText || event.target.parentNode.innerText);
     event.target.classList.add("active");
     event.target.parentNode.classList.add("active");
   });
